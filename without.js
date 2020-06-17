@@ -14,11 +14,7 @@ const eqArrays = function(array1, array2) {
 
 const assertArraysEqual = function(array1, array2) {
   
-  if (eqArrays(array1, array2) === true) {
-    console.log(`Given arrays are equal`)
-  } else {
-    console.log(`Given arrays are not equal`);
-  } 
+  console.log(eqArrays(array1,array2));
 };
 
 const without = function(source, itemsToRemove) {
